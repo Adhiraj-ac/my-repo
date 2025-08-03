@@ -1,0 +1,98 @@
+/* Basic styling for a clean and modern look */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2d3a4b;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(44,62,80,0.08);
+}
+
+button {
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+input, textarea, select {
+    border: 1px solid #cfd8dc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e3e7ed;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b0b8c1;
+    border-radius: 4px;
+}
+/* styles.css */
+body {
+    /* Set a gradient background from purple to teal */
+    background: linear-gradient(to right, #6a3093, #a044ff, #5f2c82, #49a09d);
+    font-family: Arial, sans-serif;
+    /* Sets a clean, modern font for the body text */
+    color: white;
+    /* Sets the text color to white for better contrast */
+    margin: 0;
+    /* Removes default margin */
+    padding: 0;
+    /* Removes default padding */
+    display: flex;
+    /* Enables flexbox layout */
+    justify-content: center;
+    /* Centers content horizontally */
+    align-items: center;
+    /* Centers content vertically */
+    height: 100vh;
+    /* Makes the body take the full height of the viewport */
+}
+
+h1 {
+    font-size: 2em;
+    /* Sets the size of the header text */
+    text-align: center;
+    /* Centers the header text */
+}
